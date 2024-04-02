@@ -1,5 +1,11 @@
 
 
+#logoInscription img{
+    width: 40%;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
 #abonnez {
     display: flex;
     flex-direction: column;
@@ -110,7 +116,7 @@
     width: 100%;
 }
 
-#studio, #ecoles, #openHuis {
+#studio, #ecoles, #openHuis, #comeOnFeet, #masque {
     display: grid;
     grid-template-columns: repeat(2, 45vw);
     grid-template-rows: 500px;
@@ -119,7 +125,7 @@
     margin-left: 50px;
 }
 
-#studio img, #ecoles img, #openHuis img{
+#studio img, #ecoles img, #openHuis img, #comeOnFeet img , #masque img{
     height: 100%;
     width: 100%;
 }

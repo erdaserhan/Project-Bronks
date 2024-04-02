@@ -23,6 +23,15 @@ if(isset($_GET['section'])){
         case 'visite':
             include ('../templates/visite.php');
             break;
+        case 'masque':
+            include ('../templates/masque.php');
+            break;
+        case 'Come-On-Feet':
+            include ('../templates/comeOnFeet.php');
+            break;
+        case 'inscription':
+            include ('../templates/inscription.php');
+            break;
         default:
             $title = "Erreur 404";
             include('../templates/page-404.php');
