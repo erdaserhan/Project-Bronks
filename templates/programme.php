@@ -29,9 +29,9 @@
             <img src="../public/img/photos-programme/04.jpg" alt="">
         </div>
             <p> <strong>Lorem ipsum dolor</strong> <br><br>Lorem ipsum dolor sit <br><br>Lorem ipsum dolor sit. .</p>
-        <div><
-        img src="../public/img/photos-programme/05.jpg" alt="">
-    </div>
+        <div>
+            <img src="../public/img/photos-programme/05.jpg" alt="">
+        </div>
             <p> <strong>Lorem ipsum dolor</strong> <br><br>Lorem ipsum dolor sit <br><br>Lorem ipsum dolor sit. .</p>
     </div>
 
