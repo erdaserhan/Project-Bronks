@@ -12,10 +12,10 @@
         include 'inc/menu.php'; 
         ?>
     </header>
-<h1>studio</h1>
+    <div id="studio">
+        <div><img src="../public/img/photos-home/02.jpg" alt=""></div>
+    <p><strong>Lorem ipsum dolor</strong><br><br> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam facilis eius debitis, repellat dolor maiores perferendis aut iure ipsa non rem magnam sint ratione voluptatum dolorem ipsum velit cupiditate. Et vitae repellendus, deleniti eos nulla saepe ratione, explicabo rem quod vel at enim sequi eligendi autem totam sit! Non, ad.</p>
+    </div>
 
-        <?php 
-        include 'inc/footer.php'; 
-        ?>
 </body>
 </html>

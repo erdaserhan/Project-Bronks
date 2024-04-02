@@ -12,7 +12,18 @@
         include 'inc/menu.php'; 
         ?>
     </header>
-<h1>prgrammes</h1>
+    <div id="programme">
+        <div><img src="../public/img/photos-programme/01.jpg" alt=""></div>
+        <p> <strong>Lorem ipsum dolor</strong> <br><br>Lorem ipsum dolor sit <br><br>Lorem ipsum dolor sit. .</p>
+        <div><img src="../public/img/photos-programme/02.jpg" alt=""></div>
+        <p> <strong>Lorem ipsum dolor</strong> <br><br>Lorem ipsum dolor sit <br><br>Lorem ipsum dolor sit. .</p>
+        <div><img src="../public/img/photos-programme/03.jpg" alt=""></div>
+        <p> <strong>Lorem ipsum dolor</strong> <br><br>Lorem ipsum dolor sit <br><br>Lorem ipsum dolor sit. .</p>
+        <div><img src="../public/img/photos-programme/04.jpg" alt=""></div>
+        <p> <strong>Lorem ipsum dolor</strong> <br><br>Lorem ipsum dolor sit <br><br>Lorem ipsum dolor sit. .</p>
+        <div><img src="../public/img/photos-programme/05.jpg" alt=""></div>
+        <p> <strong>Lorem ipsum dolor</strong> <br><br>Lorem ipsum dolor sit <br><br>Lorem ipsum dolor sit. .</p>
+    </div>
 
         <?php 
         include 'inc/footer.php'; 

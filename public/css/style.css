@@ -95,3 +95,32 @@
     height: 100%;
     width: 100%;
 }
+
+#programme {
+    display: grid;
+    grid-template-columns: repeat(2, 200px);
+    grid-template-rows: repeat(5, 150px);
+    margin-top: 4vh;
+    margin-left: 13vw;
+    gap: 20px;
+}
+
+#programme img{
+    height: 100%;
+    width: 100%;
+}
+
+#studio, #ecoles, #openHuis {
+    display: grid;
+    grid-template-columns: repeat(2, 45vw);
+    grid-template-rows: 500px;
+    gap: 20px;
+    margin-top: 4vh;
+    margin-left: 50px;
+}
+
+#studio img, #ecoles img, #openHuis img{
+    height: 100%;
+    width: 100%;
+}
+
