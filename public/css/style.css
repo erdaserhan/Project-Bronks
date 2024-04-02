@@ -1,0 +1,18 @@
+
+#menu {
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: repeat(1,30px);
+    background-color: red;
+    border: 3px solid black;
+}
+
+#menu a{
+    text-align: center;
+    text-decoration: none;
+    border: 3px solid black;
+}
+
+#menu a:hover{
+    text-decoration: underline;
+}
