@@ -1,18 +1,97 @@
 
+
+#abonnez {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    height: 13vh;
+    background-color: #FFE81C;
+    text-align: center;
+    padding: 15px;
+    font-weight:bold;
+    margin-top: 5vh;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#inscriptionButton{
+    width: 10%;
+    background-color: black;
+    padding: 10px;
+}
+
+#inscriptionButton a{
+    color: white;
+    text-decoration: none;
+}
+
+#partnerLogos {
+    text-align: center;
+    margin-top: 2vh;
+}
+
+#partnerLogos img{
+    width: 6%;
+    margin-right: 70px;
+}
+
+#address {
+    background-color: black;
+    color: white;
+    padding: 25px;
+    margin-top: 2vh;
+    text-align: center;
+}
+
+#address a {
+    color: white;
+}
+
+#menuAll {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+
+#logo img {
+    width: 40%;
+    margin-top: 10px;
+}
+
 #menu {
     display: grid;
-    grid-template-columns: repeat(6,1fr);
+    grid-template-columns: repeat(6,15%);
     grid-template-rows: repeat(1,30px);
-    background-color: red;
-    border: 3px solid black;
+    gap: 30px;
+    margin-top: 30px;
 }
 
 #menu a{
     text-align: center;
     text-decoration: none;
-    border: 3px solid black;
+    border: 1.8px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    font-weight: bold;
+    color: black;
 }
 
 #menu a:hover{
     text-decoration: underline;
+}
+
+#homepageView{
+    display: grid;
+    grid-template-columns: repeat(6,15%);
+    grid-template-rows: repeat(1,150px);
+    gap: 30px;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#homepageView img{
+    height: 100%;
+    width: 100%;
 }

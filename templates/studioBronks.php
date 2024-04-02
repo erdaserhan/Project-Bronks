@@ -14,6 +14,8 @@
     </header>
 <h1>studio</h1>
 
-    
+        <?php 
+        include 'inc/footer.php'; 
+        ?>
 </body>
 </html>
