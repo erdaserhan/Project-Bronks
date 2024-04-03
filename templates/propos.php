@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>À Propos De Bronks</title>
+    <title><?=$title?></title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -12,9 +12,10 @@
         include 'inc/menu.php'; 
         ?>
     </header>
-
+    <footer>
         <?php 
         include 'inc/footer.php'; 
         ?>
+    </footer>
 </body>
 </html>
