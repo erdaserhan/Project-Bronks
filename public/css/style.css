@@ -120,7 +120,7 @@
 
 #studio, #ecoles, #openHuis, #comeOnFeet, #masque {
     display: grid;
-    grid-template-columns: repeat(2, 45vw);
+    grid-template-columns: repeat(2,40vw);
     grid-template-rows: 500px;
     gap: 20px;
     margin-top: 4vh;
